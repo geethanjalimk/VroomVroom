@@ -26,6 +26,7 @@
 		@mixin atSmall{
 			font-size: 1.875rem;
 			margin-top: 1em;
+			text-align: left;
 		}
 	}
 }
