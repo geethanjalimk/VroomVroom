@@ -26,6 +26,7 @@
     "scripts": {
       "start": "webpack --config webpack.config.js"
     },
+    "waypoints": "^4.0.1",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0"
   }
