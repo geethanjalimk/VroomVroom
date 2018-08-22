@@ -2,7 +2,11 @@
 
 	{{#first}}
 		.icon{
-		background:url('/assets/images/sprite/{{{sprite}}}');
+			background-image:url('/assets/images/sprite/{{{sprite}}}');
+		}
+		
+		.no-svg .icon{
+			background-image:url('/assets/images/sprite/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
 		}
 	{{/first}}
 	
